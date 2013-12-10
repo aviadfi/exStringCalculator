@@ -7,7 +7,14 @@ public class StringCalculator {
 }else if (text.contains(",")){
 	
 	String[] allnumbers = text.split(",");
-	return Integer.parseInt(allnumbers[0]) + Integer.parseInt(allnumbers[1]);
+	
+	int sum =0;
+	for (String number : allnumbers)
+	sum+= Integer.parseInt(number);
+	return sum;
+	
+	
+	
 }else{
 	
 	return Integer.parseInt(text);
