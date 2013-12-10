@@ -23,6 +23,12 @@ public class StringCalculatorTaster {
 	  
 	  
 	  }
-	  
   
+  @Test 
+  public void TwoNumberReturnsSum() {
+	  
+	    assertEquals(3, new StringCalculator().add("1,2"));
+  
+	  
+  }
   }
