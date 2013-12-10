@@ -13,5 +13,17 @@ public class StringCalculatorTaster {
 	
 		
 	}
-
+	
+	@Test
+	
+	public void singleValueReturn(){
+		
+		
+		
+		
+		
+	}
+	
+	
+	
 }
