@@ -6,8 +6,12 @@ import org.junit.Test;
 public class StringCalculatorTaster {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void shouldReturnZeroOnEmptyString(){
+		
+     assertEquals(0, StringCalculator.add(" "))	;	
+
+	
+		
 	}
 
 }
