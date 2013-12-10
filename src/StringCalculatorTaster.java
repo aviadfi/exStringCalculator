@@ -17,7 +17,7 @@ public class StringCalculatorTaster {
 	@Test
 	
 	public void singleValueReturn(){
-		
+		 assertEquals("1", 1)	;
 		
 		
 		
