@@ -31,4 +31,25 @@ public class StringCalculatorTaster {
   
 	  
   }
+  
+  
+  @Test 
+  public void MULTYFULNumberReturnsSum() {
+	  
+	    assertEquals(6, new StringCalculator().add("1,2,3"));
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
   }
